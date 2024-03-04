@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    font-family: "Noto Serif", serif;
+    background-image: var(--background-layout);
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --background-layout: radial-gradient(circle, rgba(0, 0, 0, 0.728) 0%, #0a020a 100%);
+    --padding-layout: 20px;
+    --color-h1: coral;
+    --title-comic: white;
+    --background-border: #0000006d;
+    --color-icon: coral;
+    --background-content: #0093E9;
+    --background-image-content: linear-gradient(104deg, rgba(128, 138, 208, 1) 0%, rgba(0, 142, 233, 0.5466561624649859) 100%);
+    --border-header: 1px solid gray;
+    --border-radius-header: 20px;
+    --border-comic: 1px solid coral;
+    --color-text-button: coral;
+    --padding-button: 5px 10px;
+    --hover-box-shadow-button: 0 0 10px 0px black;
+    --background-border-hover: #0000006d;
+}
